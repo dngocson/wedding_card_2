@@ -1,9 +1,8 @@
 import { z } from "zod";
 
 export const weddingInviteParamsSchema = z.object({
-	page: z.string().optional().default("1"),
-	brideName: z.string().optional().default("Ngộ Không"),
-	groomName: z.string().optional().default("Bát Giới"),
+	groomName: z.string().optional().default("Văn Bách"),
+	brideName: z.string().optional().default("Khánh Ly"),
 	inviteeNames: z
 		.array(z.string())
 		.optional()

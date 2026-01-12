@@ -1,5 +1,5 @@
 // Auto-generated image map - Do not edit manually
-// Generated at: 2026-01-12T11:17:32.261Z
+// Generated at: 2026-01-12T12:33:49.305Z
 // Images sorted by size (largest first)
 
 export const imageMap = {

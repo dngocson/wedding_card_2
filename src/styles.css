@@ -40,6 +40,22 @@
   src: url("/fonts/fontFour.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: fontFive;
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/fontFive.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: fontSix;
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/fontSix.woff2") format("woff2");
+}
+
 @theme {
   --breakpoint-realme-neo2: 325px; /* Realme Neo 2 */
   --breakpoint-ip-se: 375px; /* iPhone SE (2020, 2022), 13 Mini */
@@ -65,6 +81,8 @@
   --font-fontTwo: "fontTwo", sans-serif;
   --font-fontThree: "fontThree", sans-serif;
   --font-fontFour: "fontFour", sans-serif;
+  --font-fontFive: "fontFive", sans-serif;
+  --font-fontSix: "fontSix", sans-serif;
 
   /* Primary - Neutral (Light Mode) */
   --color-primary-100: oklch(0.99 0 0);
